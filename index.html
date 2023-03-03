@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>مقياس الرهاب الإجتاعي</title>
+  
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style type="text/css">
+				#content {
+						width: 800px;
+						border: 0px solid whitesmoke;
+						border-radius: 10px;
+						background-color: #FFFAF2;
+						padding: 10px 20px;
+						margin: auto;
+					}
+
+				img.title-img {
+					padding: 20px;
+					height: 83.6px;
+					width: 400px;
+				}
+
+				p.qst{
+					  font-family: system-ui, sans-serif;
+					  font-size: 22px;
+					  font-weight: bolder;
+					  color: #2E2836;
+				}
+
+
+
+
+				input[type="submit"], input[type="button"] {
+								display: grid;
+								margin: 10px;
+					      width: 200px;
+						    height: 60px;
+						    border: none;
+						    outline: none;
+						    background: #4444FF;
+						    color: #fff;
+						    font-size: 22px;
+						    border-radius: 40px;
+						    text-align: center;
+						    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+						    position: relative;
+						    overflow: hidden;
+						    cursor: pointer;
+				}
+
+				input[type="submit"]:hover, input[type="button"]:hover {
+						background: #0044AA;
+				}
+
+				td {
+					align-content: center;
+					padding-left:20px ;
+				}
+	</style>
+
+</head>
+<body align="center" style="color: #212F3C; background-image: linear-gradient(to right, #4444FF, #00AAFF);">
+<img alt="2" src="title.png" class="title-img">
+			<div id="content">
+					<h1>مقياس الخواف أو الرهاب االجتماعي</h1>
+		          <p align="right" style="font-size: 21px;"><b>:تعليمات</b><br>
+		              يعرض عليك مجموعة من العبارات التي تتعلق بمشاعرك وتصرفاتك في مواقف الحياة&nbsp; &nbsp; &nbsp; المختلفة،ويوجد أمام كل عبارة خيارين هما نعم أو لا</p>
+		            <p align="right" style="font-size: 21px;"><b>:المرجو منك</b><br>
+		              أن تقرأ  كل عبارة بدقة ثم تبدي رأيك بوضع علامة (نعم) اذا كانت العبارة تنطبق
+		              عليك ، أو بوضع عالمة (لا) اذا كانت العبارة لا تتنطبق عليك <br>
+		              لا تترك عبارة دون الإجابة عنها <br>
+		              لاحظ أنه لا توجد إجابة صحيحة أو خاطئة, الإجابة تعد صحيحة طالما تعبر عن حقيقة شعورك تجاه المعنى الذي تحمله العبارة </p>
+			
+			<form id="survey-form" align="center">
+		    <div class="radio-toolbar">
+				    <p align="right" class="qst"> أحب البقاء في الفراش حتى لا أرى أي شخص.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question1" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question1" value="no" required></label>
+   				 </div><br>
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  استمتع بالوحدة. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question2" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question2" value="no"></label>
+				    </div><br>
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أفضل عادة أن أكون في صحبة الأصدقاء على أن أكون وحيدا </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question3" value="no" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question3" value="yes"></label>
+				    </div><br>
+
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أشعر برغبة ملحّة في أن أرحل على الفور عند دخولي حجرة مكتظة بالناس </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question4" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question4" value="no"></label>
+				    </div><br>
+
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  يمثل التفاعل أو التواصل مع الآخرين عبئا نفسيا عليّ  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question5" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question5" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  لا أستطيع أن أشعر بالاسترخاء الا اذا كنت بمفردي  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question6" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question6" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أستمتع بالتعامل مع نوعيات مختلفة من الناس.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question7" value="no" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question7" value="yes"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أبتعد عن الآخرين قدر الإمكان.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question8" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question8" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أمارس هواياتي المفضلة بمفردي.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question9" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question9" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst"> أخبر الآخرين أنني لست على ما يرام ألتجنب مشاركتهم في القيام ببعض المهام  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question10" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question10" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أشعر بالاِرتياح عندما أكون بمفردي.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question11" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question11" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أشعر بالقلق أثناء تواجدي مع الآخرين.  </p>
+				    <label>&nbsp;نعم&nbsp;
+				      <input type="radio" name="question12" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question12" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أفضل تناول الطعام بمفردي عن تناوله مع الآخرين.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question13" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question13" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أفضل السفر مع الأصدقاء عن السفر بمفردي.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question14" value="no" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question14" value="yes"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أفضل الذهاب الى السينما بمفردي.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question15" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question15" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أستمتع دائما بوجودي مع الآخرين.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question16" value="no" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question16" value="yes"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أفضل الخروج مع الأصدقاء عن الجلوس وحدي بالبيت.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question17" value="no" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question17" value="yes"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  عندما أتحدث مع الآخرين تتملكني رغبة قوية في التوقف عن الكلام والإبتعاد عنهم  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question18" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question18" value="no"></label>
+		    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  تواجدي مع الآخرين يسبب لي الإرهاق.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question19" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question19" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أشعر غالبا بالرغبة في مغادرة الحفلات دون وداع أصدقائي </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question20" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question20" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  حتى عندما أكون في حاله نفسية جيدة ، لا أفضل التواجد مع الآخرين  </p>
+				    <label>نعم
+				      <input type="radio" name="question21" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question21" value="no"></label>
+		    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أتمنى مرور اليوم سريعا حتى أصبح بمفردي.  </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question22" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question22" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أتمنى أن يتركني الآخرون وحدي. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question23" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question23" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أشعر بالأمان عندما أكون بمفردي. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question24" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question24" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  عندما أجلس في مكان مزدحم أشعر بدافع قوي في ترك المكان </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question25" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question25" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أحتاج أن أكون بمفردي تماما لعدة أيام. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question26" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question26" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أشعر بالاِرتياح عندما أكون مع الآخرين. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question27" value="no" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question27" value="yes"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أحب قضاء وقت فراغي مع الآخرين. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question28" value="no" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question28" value="yes"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  عندما أقرر أن أكون مع الآخرين أندم على ذلك فيما بعد. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question29" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question29" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  يصيبني ارهاق شديد لا يمكن احتماله نتيجة تواجدي مع الآخرين </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question30" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question30" value="no"></label>
+		    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أعتبر نفسي شخصا وحيدا أو منعزلا عن الآخرين. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question31" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question31" value="no"></label>
+				    </div><br>
+				    
+
+				    <div class="radio-toolbar">
+				    <p align="right" class="qst">  أتمنى أن أكون بمفردي أو وحيدا معظم الوقت. </p>
+				    <label>نعم&nbsp;
+				      <input type="radio" name="question32" value="yes" required></label>
+				    <label>لا&nbsp;
+				      <input type="radio" name="question32" value="no"></label>
+				    </div><br>
+			
+			<table width="523" height="164.6" border="0">
+				  <tbody>
+				    <tr>
+				      <td><input type="submit" value="أُحسب" onclick="calculateScore()" align="center"></td>
+				      <td><input type="button" value="مسح و إعادة" onclick="clearAllFields()" align="center"></td>
+			        </tr>
+			</tbody>
+	    </table>
+
+					    
+		  </form>
+
+
+
+
+</div>
+<script>
+    /*  
+		    const form = document.getElementById('survey-form');
+		    form.addEventListener('submit', function(event) {
+		      event.preventDefault(); // Prevent form submission
+		      
+		      let score = 0;
+		      const questions = form.querySelectorAll('input[type="radio"]');
+		      
+		      questions.forEach(function(question) {
+		        if (question.checked && question.value === 'yes') {
+		          score += 2;
+		        } else {
+		          score += 1;
+		        }
+		      });
+		      
+		      alert(`Your total score is ${score}`);
+		    });
+		 */
+  </script>
+  <script type="text/javascript">
+
+
+
+
+
+
+		function calculateScore() {
+				  var score = 0;
+				  var numQuestions = 32;
+				  var numAnswered = 0;
+				  var missingAnswers = [];
+				  
+				  // Loop through all the questions
+				  for (var i = 1; i <= numQuestions; i++) {
+				    var radios = document.getElementsByName('question' + i);
+				    var answered = false;
+				    for (var j = 0; j < radios.length; j++) {
+				      var radio = radios[j];
+				      if (radio.checked) {
+				        answered = true;
+				        if (radio.value == 'yes') {
+				          score += 2;
+				        } else if (radio.value == 'no') {
+				          score += 1;
+				        }
+				      }
+				    }
+				    if (answered) {
+				      numAnswered++;
+				    } else {
+				      missingAnswers.push(i);
+				    }
+				  }
+				  
+				  if (numAnswered == numQuestions) {
+				    alert("Your score is: " + score);
+				  } else {
+				    var message = "Please answer the following questions: ";
+				    for (var i = 0; i < missingAnswers.length; i++) {
+				      var questionNumber = missingAnswers[i];
+				      message += questionNumber;
+				      if (i < missingAnswers.length - 1) {
+				        message += ", ";
+				      }
+				      var messageElement = document.getElementById('q' + questionNumber + '_message');
+				      messageElement.innerHTML = "Please select an answer";
+				      messageElement.style.color = "red";
+				    }
+				    alert(message);
+				  }
+		}
+
+ 	function clearAllFields() {
+		  var inputs = document.getElementsByTagName('input');
+		  for (var i = 0; i < inputs.length; i++) {
+		    if (inputs[i].type == 'radio') {
+		      inputs[i].checked = false;
+		    }
+		  }
+		}
+
+
+  </script>
+</body>
+</html>
